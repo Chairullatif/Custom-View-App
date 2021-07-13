@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <com.khoirullatif.customviewapp.customview.MyEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_name"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="32dp" />
+
     <com.khoirullatif.customviewapp.customview.MyButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

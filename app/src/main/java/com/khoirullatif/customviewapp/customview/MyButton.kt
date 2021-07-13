@@ -28,6 +28,8 @@ class MyButton : AppCompatButton {
         init()
     }
 
+    // Perubahan bentuk diletakkan di onDraw() tp kalau behaviour diluar onDraw()
+    // Pemanggilan resource dari komponen jangan di onDraw, tp di constructor/ lewat bantuan init() dibawah
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
         setTextColor(colorText)
