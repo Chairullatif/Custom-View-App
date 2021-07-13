@@ -1,4 +1,4 @@
-package com.khoirullatif.customviewapp
+package com.khoirullatif.customviewapp.customview
 
 import android.content.Context
 import android.graphics.Canvas
@@ -8,6 +8,7 @@ import android.view.Gravity
 import androidx.appcompat.widget.AppCompatButton
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
+import com.khoirullatif.customviewapp.R
 
 class MyButton : AppCompatButton {
 
